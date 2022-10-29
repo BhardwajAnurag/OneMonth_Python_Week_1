@@ -1,0 +1,6 @@
+print("Welcome to tip calculator")
+print("-------------------------")
+bill = float(input("What was your bill amount today?"))
+tip_perc = int(input("How much tip would you like to give\n10%\n15%\n18%\n"))
+tip = bill*(tip_perc/100)
+print(f"Your tip amount on {bill:.2f} would be {tip:.2f}")
